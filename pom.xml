@@ -50,6 +50,7 @@
         <artifactId>maven-site-plugin</artifactId>
         <configuration>
           <reportPlugins>
+           <!-- 
             <plugin>
               <artifactId>maven-checkstyle-plugin</artifactId>
             </plugin>
@@ -75,10 +76,11 @@
               <artifactId>findbugs-maven-plugin</artifactId>
             </plugin>
 
-            <plugin>
+             <plugin>
               <groupId>org.codehaus.mojo</groupId>
               <artifactId>taglist-maven-plugin</artifactId>
-            </plugin>
+             </plugin>
+           -->
           </reportPlugins>
         </configuration>
       </plugin>
